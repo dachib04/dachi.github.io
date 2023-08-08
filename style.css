@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    color: #54575A;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: Lato;
+    background: linear-gradient(180deg, #FFF 0%, #F3F8F7 49.91%, #FFF9F5 94.19%);
+}
+
+.wrapper {
+    position: relative;
+    width: 90rem;
+    height: 86rem;
+    margin: auto;
+}
+
+.logo-img {
+    position: absolute;
+    top: 3.14rem;
+    left: 13.81rem;
+    width: 12.0625rem;
+    height: 2.97738rem;
+}
+
+.title {
+    position: absolute;
+    width: 32.625rem;
+    top: 14.75rem;
+    left: 13.81rem;
+    flex-direction: column;
+    flex-shrink: 0;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 4.21875rem;
+}
+
+.text {
+    position: absolute;
+    width: 24.625rem;
+    top: 25.19rem;
+    left: 13.81rem;
+    flex-direction: column;
+    flex-shrink: 0;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+.app-store-btn {
+    position: absolute;
+    top: 33.19rem;
+    left: 13.81rem;
+    width: 8.65269rem;
+    height: 2.89238rem;
+}
+
+.app-store-btn img {
+    width: 8.65269rem;
+    height: 2.89238rem;
+}
+
+.play-store-btn {
+    position: absolute;
+    top: 33.19rem;
+    left: 23.86rem;
+    width: 9.76163rem;
+    height: 2.89231rem;
+}
+
+.play-store-btn img {
+    width: 9.76163rem;
+    height: 2.89231rem;
+}
+
+.main-image-container {
+    position: absolute;
+    width: 33.48231rem;
+    height: 19.32938rem;
+    top: 14.36rem;
+    left: 42.71rem;
+}
+
+.main-image-container img {
+    height: 25.697rem;
+}
+
+.profile-img {
+    position: absolute;
+    width: 16rem;
+    height: 27.75rem;
+    top: 42.87rem;
+    left: 46.06rem;
+}
+
+.product-img {
+    position: absolute;
+    width: 18rem;
+    height: 13.875rem;
+    top: 72.31rem;
+    left: 46.06rem;
+}
+
+.order-img {
+    position: absolute;
+    width: 18rem;
+    height: 29rem;
+    top: 57.06rem;
+    left: 29.94rem;
+}
+
+.cart-img {
+    position: absolute;
+    width: 18rem;
+    height: 13.875rem;
+    top: 72.31rem;
+    left: 13.81rem;
+}
+
+.home-img {
+    position: absolute;
+    width: 18rem;
+    height: 29rem;
+    top: 56.75rem;
+    left: 62.19rem;
+}
